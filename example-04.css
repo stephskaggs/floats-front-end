@@ -8,25 +8,46 @@
 .container {
 	width: 1024px;
 	margin: 0 auto;
+
 }
 
 
-.header {}
-/* hint! you have to contain the floated children elements. */
+.header {
+}
+
+.header:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
 
 .logo {
-	/* hint! */
+	float: left;
+	width: 25%;
+
 }
 
 .navigation {
-	/* hint! */
+	float: left;
+	width: 75%;
 }
-
 .sidebar {
+    float: left; 
+    width: 25%; 
+    height: 300px; 
 }
 
 .main-content {
+    float: left; 
+    width: 75%; 
+    height: 300px; 
 }
 
 .footer {
+    clear: both; /* to clear the floated elements above it. try removing me and see what happens. it might be more obvious if you add some margin to all the elements. */
+
 }
+
+

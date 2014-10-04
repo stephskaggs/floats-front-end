@@ -11,18 +11,61 @@
 }
 
 
-.header {}
+.header {
+}
 
-.logo {}
+.header:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
 
-.navigation {}
+.logo {
+	float: left;
+	
 
-.sidebar {}
+}
 
-.main-content {}
+.navigation {
+	float: right;
+	
 
-.sub-content {}
+}
 
-.sub-content-2 {}
+.sidebar {
+	
+	float: left;
+	width: 25%;
+	height: 300px;
 
-.footer {}
+}
+
+.main-content {
+	
+	overflow: auto;
+}
+/* hint! you have to contain the floated children elements. */
+
+.sub-content {
+
+	float: right;
+	width: 75%;
+	height: 150px;
+	
+}
+.sub-content-2 {
+
+	float: right;
+	clear: right;
+	width: 75%;
+	height: 150px;
+	
+}
+
+.footer {
+	clear: both;
+}
+
+

@@ -14,20 +14,24 @@
 .header {}
 
 .sidebar {
-	/* hint! */
+	float: right;
+	width: 25%;
+	height: 300px;
 }
 
 .main-content {
-	/* hint! */
+	float: right;
+	width: 70%;
+	height: 300px;
 }
 
 .footer {
-	/* hint! */
+	clear: both;
 }
 
-/*
-div {
-	margin: 20px;
-}
-*/
+
+/*div {
+	margin: 5%;
+}*/
+
 /* uncomment me to see if you missed anything! */

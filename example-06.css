@@ -11,17 +11,27 @@
 }
 
 
-.main-content {}
-/* hint! what do you need to add here? */
+.main-content {
+}
+
+.main-content:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+ 
 
 .widget {
 	/* how do you make the widgets float next to each other? */
 	/* what happens when you change float left to float right? why? */
+	float: left;
 }
 
 
 .footer {
-	/* hint! */
+	clear: both;
 }
 
 
@@ -31,4 +41,56 @@
 /* this CSS class targets widget #5. what can you do to it to make the rows of widgets get back in order? */
 .widget.fix {
 	background: #8F1B65;
+}
+
+.header {
+	float: left;
+	width: 100%%;
+	overflow: auto;
+}
+
+.logo {
+	float: left;
+	
+
+}
+
+.navigation {
+	float: right;
+	
+
+}
+
+.sidebar {
+	
+	float: left;
+	width: 25%;
+	height: 300px;
+
+}
+
+.main-content {
+	
+	overflow: auto;
+}
+/* hint! you have to contain the floated children elements. */
+
+.sub-content {
+
+	float: right;
+	width: 75%;
+	height: 150px;
+	
+}
+.sub-content-2 {
+
+	float: right;
+	clear: right;
+	width: 75%;
+	height: 150px;
+	
+}
+
+.footer {
+	clear: both;
 }

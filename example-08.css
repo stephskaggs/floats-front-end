@@ -5,19 +5,25 @@
 
 /* Example 08 */
 
-.container {
-	width: 1024px;
-	margin: 0 auto;
-}
 
 .header {}
 
+.sidebar {
+	float:left;
+	width: 33.33%;
+}
 
-.sidebar {}
+.main-content {
+	float:left;
+	width: 33.33%;
+}
 
-.main-content {}
+.sub-content {
+	float:left;
+	width: 33.33%;
+}
 
-.sub-content {}
+.footer {
+	clear:both;
 
-
-.footer {}
+}

@@ -5,6 +5,8 @@
 
 /* Example 01 */
 
+
+
 .container {
     width: 1024px; /* fixed width layout */
     margin: 0 auto; /* centers this containing element in the browser viewport */
@@ -13,6 +15,7 @@
 .header {
     /* we don't want the header floated, so nothing to do here! */
 }
+
 
 .sidebar {
     float: left; /* float the sidebar to the left—it will go to the left-most side of its containing element, on a new line after the last non-floated element */

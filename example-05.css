@@ -5,28 +5,70 @@
 
 /* Example 05 */
 
+/*<!-- Float the logo left and nav right in the header. Then make the sidebar float to the left of the two sub 
+content divs, which should stack on top of each other. The footer should clear. -->*/
+
+
+
 .container {
 	width: 1024px;
 	margin: 0 auto;
+	
 }
 
-.header {}
-/* hint! what do you have to add here? */
+.header {
+}
 
-.logo {}
+.header:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
 
-.navigation {}
+.logo {
+	float: left;
+	
 
-.sidebar {}
+}
 
-.main-content {}
+.navigation {
+	float: right;
+	
+
+}
+
+.sidebar {
+	
+	float: left;
+	width: 25%;
+	height: 300px;
+
+}
+
+.main-content {
+	
+	overflow: auto;
+}
 /* hint! you have to contain the floated children elements. */
 
 .sub-content {
-	/* hint! */
+
+	float: right;
+	width: 75%;
+	height: 150px;
+	
 }
 .sub-content-2 {
-	/* hint! */
+
+	float: right;
+	clear: right;
+	width: 75%;
+	height: 150px;
+	
 }
 
-.footer {}
+.footer {
+	clear: both;
+}

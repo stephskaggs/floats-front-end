@@ -7,11 +7,20 @@
 
 .header {}
 
-.sidebar {}
+.sidebar {
+	width: 80%;
+/*	float: left;*/
+}
 
-.main-content {}
+.main-content {
+	width: 80%;
+	margin: 0 auto;
+}
 
-.sub-content {}
+.sub-content {
+	width: 80%;
+	float: left;
+}
 
 .footer {}
 

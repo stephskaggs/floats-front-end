@@ -7,12 +7,24 @@
 
 .header {}
 
-.sidebar {}
+.sidebar {
+	float:left;
+	width: 33.33%;
+}
 
-.main-content {}
+.main-content {
+	float:left;
+	width: 33.33%;
+}
 
-.sub-content {}
+.sub-content {
+	float:left;
+	width: 33.33%;
+}
 
-.footer {}
+.footer {
+	clear:both;
+
+}
 
 /* what do you have to add to make the sidebar and content and footer not be the full width of the browser? */
