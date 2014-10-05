@@ -1,4 +1,4 @@
-/*/*/* ---------------------------------------------------------- */
+/*/*/ /*--------------------------------------------------------- */
 /* Float Examples for MakerSquare Front-End Class ----------- */
 /* created by Elyse Holladay @elyseholladay ----------------- */
 /* ---------------------------------------------------------- */
@@ -8,18 +8,25 @@
 /* To Do List */
 .todolist {
 	border: solid gray;
+	width: 30%;
+	margin: 0 auto;
+
 }
 
 /* Individual Todo*/
 .todo {
-	/*border: solid red;*/
-	overflow: auto;
-	/*width: 35%;
-	border-bottom: solid gray;
-	padding: 10px;*/
+	width: 100%;
+	
 }
 
+.todo:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
 
+}
 /* Priority icon dot */
 .icon {
 	/*border: solid pink;*/
@@ -37,8 +44,7 @@
 /* Title */
 .todo-title {
 	/*float: left;*/
-	/*clear: right;
-	font-size: 35px;*/
+	
 }
 
 /* Date */
